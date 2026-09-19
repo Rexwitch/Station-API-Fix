@@ -2,6 +2,10 @@
 
 Unofficial fix for the **StationAPI 2.0 startup crash on Android launchers** (Zalith Launcher 2).
 
+# Warning
+
+use https://modrinth.com/mod/stationapis-no-startup-screen by FarnGitHub
+
 ![Minecraft](https://img.shields.io/badge/Minecraft-b1.7.3-62B47A)
 
 
