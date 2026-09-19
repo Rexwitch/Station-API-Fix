@@ -2,6 +2,22 @@
 
 Unofficial fix for the **StationAPI 2.0 startup crash on Android launchers** (Zalith Launcher 2).
 
+![Minecraft](https://img.shields.io/badge/Minecraft-b1.7.3-62B47A)
+
+
+
+
+![Loader](https://img.shields.io/badge/Loader-Babric%2FFabric-DBB18D)
+
+
+
+
+![Requires](https://img.shields.io/badge/Requires-StationAPI-blue)
+
+
+
+
+![Side](https://img.shields.io/badge/Side-client-lightgrey)
 ## The problem
 
 On some Android launchers, Minecraft b1.7.3 with StationAPI 2.0 crashes right after the mods finish loading, before the main menu appears. Without StationAPI the game starts fine.
@@ -54,3 +70,5 @@ Put the jar into the `mods` folder next to StationAPI.
 Licensed under **LGPL-3.0-only**.
 
 StationAPI is made by the Modification Station team (MIT license). This mod is unofficial and not affiliated with them; the icon uses the StationAPI logo.
+
+[![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)](#)
