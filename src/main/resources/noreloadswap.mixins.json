@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.local.noreloadswap.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ReloadScreenManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

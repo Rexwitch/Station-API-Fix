@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "noreloadswap",
+  "version": "1.0.1",
+  "name": "StationAPI Fix",
+  "description": "Fixes the startup crash of StationAPI 2.0 on Android launchers (SIGSEGV in gl_swap_buffers): skips the buffer swap in StationAPI's early loading screen thread. The animated loading screen is not shown. Tested on Zalith Launcher 2 with StationAPI 2.0.0-alpha.6.4. Unofficial, not made by the StationAPI team.",
+  "authors": [
+    "Rexwitch",
+    "Claude"
+  ],
+  "license": "LGPL-3.0-only",
+  "icon": "assets/noreloadswap/icon.png",
+  "environment": "client",
+  "mixins": [
+    "noreloadswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.0.0-beta.7.3",
+    "stationapi": "*"
+  }
+}
